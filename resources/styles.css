@@ -58,7 +58,7 @@ footer{
     position: absolute;
     width: 272px;
     height: 26px;
-    left: 500px;
+    left: 480px;
     top: 1805px;
     margin-bottom: 39px;
     font-size: 18px;
@@ -208,4 +208,120 @@ footer span{
     height: 65px;
     border-radius: 10px;
     margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {    
+    header{
+        width: 689px;
+        height: 58px;
+        top: 40px;
+        margin: 0 39px;
+    }
+    
+    h1{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    
+    h3{
+        width: 200px;
+        font-size: 24px;
+        line-height: 28px;    
+    }
+    
+    footer{
+        position: absolute;
+        width: 272px;
+        height: 26px;
+        left: 170px;
+        top: 2095px;
+        margin-bottom: 43px;
+        font-size: 16px;
+    }
+    
+    .block1{
+        position: absolute;
+        top: 1270px;
+        display: grid;
+        width: 631px;
+        height: 650px;
+        grid-template-columns: 1fr 1fr;
+        margin: 0;
+        left: 39px;
+        gap: 50px;
+    }
+    
+    .text1{
+        position: absolute;
+        width: 343px;
+        height: 312px;
+        left: 39px;
+        top: 256px;
+    }
+    
+    .text1 p{
+        font-size: 16px;
+    }
+    
+    .text1 span{
+        display: inline;
+        margin-left: 37px;
+        width: 127px;
+        height: 26px;
+        color:  rgba(123, 139, 173, 1);
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    .image1{
+        width: 321px;
+        height: 425px;
+        top: 160px;
+        left: 447px;
+        background-image: url('./tablet/image-keyboard.jpg');
+    }
+    
+    .blank1, .blank2{
+        display: none;
+    }
+    
+    .image2{
+        width:214px;
+        height: 320px;
+        top: 625px;
+        left: 39px;
+        background-image: url('./tablet/image-phone-and-keyboard.jpg');
+    }
+    
+    .image3{
+        width: 445px;
+        height: 320px;
+        top: 625px;
+        left: 283px;
+        background-image: url('./tablet/image-glass-and-keyboard.jpg');
+    }
+    
+    .text2{
+        position: absolute;
+        width: 689px;
+        height: 108px;
+        top: 1017px;
+        left: 39px;
+        display: inline-flex;
+    }
+    
+    .text2 p{
+        margin-top: 45px;
+        margin-left: 100px;
+        width: auto;
+    }
+    
+    .block1 p{
+        width: 283px; 
+    }
+
+    .block1 p span{
+        display: inline;
+    }
+    
 }
