@@ -7,7 +7,7 @@ Currently, there are no links attached to the buttons so clicking on the buttons
 
 The mobile view feature accomodates screens with a maximum width of 375px whiles the tablet view feature applies to screens with width between 376px and 768px.
 
-The page renders an optimal layout for desktop scrrens not exceeding 1440px.
+The page renders an optimal layout for desktop screens not exceeding 1440px.
 ## Features
 ------------
 - Optimal layout depending on device's screen size.
