@@ -1,4 +1,4 @@
-# Type Master Pre-Launch Page
+# TypeMaster Pre-Launch Page
 ## Description
 ---------------
 This project serves as a static pre-launch landing page for a web application. The project was completed using only HTML and CSS and deployed with github pages. Page layout was implemented  mostly with css position property and some minor organization of elements using flexbox and grid display.
