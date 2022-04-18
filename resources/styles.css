@@ -306,6 +306,113 @@ footer span{
 
     .block1 p span{
         display: inline;
+    } 
+}
+
+
+@media only screen and (max-width: 375px) {    
+    header{
+        width: 327px;
+        height: 48px;
+        top: 23px;
+        margin: 0 24px;
     }
     
+    h1{
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    h2{
+        width: 200px;
+        margin-left: 60px;
+    }
+    
+    h3{
+        width: 200px;
+        font-size: 24px;
+        margin-left: 60px;
+        text-align: center;    
+    }
+    
+    footer{
+        left: 5px;
+        top: 3000px;
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+    
+    .block1{
+        top: 1455px;
+        display: grid;
+        width: 327px;
+        grid-template-columns: 1fr;
+        margin: 0;
+        left: 24px;
+        gap: 64px;
+    }
+    
+    .text1{
+        width: 343px;
+        height: 286px;
+        left: 24px;
+        top: 135px;
+    }
+    
+    .text1 p{
+        font-size: 16px;
+    }
+    
+    .image1{
+        width: 355px;
+        height: 331px;
+        top: 485px;
+        left: 24px;
+        background-image: url('./mobile/image-keyboard.jpg');
+    }
+    
+    .blank1, .blank2{
+        display: none;
+    }
+    
+    .image2{
+        width:129px;
+        height: 193px;
+        top: 840px;
+        left: -22px;
+        background-image: url('./mobile/image-phone-and-keyboard.jpg');
+    }
+    
+    .image3{
+        width: 220px;
+        height: 193px;
+        top: 840px;
+        left: 131px;
+        background-image: url('./mobile/image-glass-and-keyboard.jpg');
+    }
+    
+    .text2{
+        width: 327px;
+        height: 108px;
+        top: 1108px;
+        left: 24px;
+        text-align: center;
+    }
+    
+    .text2 p{
+        width: auto;
+    }
+    
+    .block1 p{
+        width: 325px;
+        text-align: center;
+    }
+
+    .block1 p span{
+        display: inline;
+    }
+    
+    .icon{
+        margin-left: 130px;
+    }
 }
